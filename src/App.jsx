@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Service from './pages/Service'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/service' element={<Service/>}/>
 
       </Routes>
+      <Footer/>
       </BrowserRouter>
         
     </div>
